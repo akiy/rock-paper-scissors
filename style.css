@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+body {
+	font-size: 1rem;
+	font-family: sans-serif;
+	line-height: 1.6;
+}
+
+.container {
+	max-width: 1100px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.rock, .scissor, .paper {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #333;
+	border-radius: 4px;
+}
