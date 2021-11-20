@@ -16,6 +16,7 @@ body {
 	font-size: 1rem;
 	font-family: sans-serif;
 	line-height: 1.6;
+	background-color: #012a4a;
 }
 
 .container {
@@ -24,9 +25,34 @@ body {
 	margin: 0 auto;
 }
 
+.play-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+}
+
 .rock, .scissor, .paper {
 	width: 100px;
 	height: 100px;
-	border: 1px solid #333;
+	border: 5px solid #89c2d9;
 	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #a9d6e5;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 2rem;
+}
+
+.rock:hover, .scissor:hover, .paper:hover {
+	color: #00f5d4;
+	border-color: #00f5d4;
+}
+
+.game-result {
+	margin-top: 2rem;
+	font-size: 2rem;
+	text-align: center;
+	color: #17c3b2;
 }
